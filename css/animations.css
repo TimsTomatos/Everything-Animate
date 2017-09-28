@@ -1,0 +1,16 @@
+#rotate {
+	background-color: orange;
+    transform: rotate(120deg);
+
+
+}
+
+#skew {
+	transform: skew(20deg,10deg);
+	background-color: purple;
+}
+
+#all {
+	background-color: red;
+	transform: skew(10deg, 12deg);
+}
