@@ -1,4 +1,4 @@
-#matrix #rotate, #skew, #all, #animate, #pseudo{
+ #matrix, #rotate, #skew, #all, #animate, #pseudo{
   border: 2px solid #000;
   width: 200px;
   height: 200px;
@@ -10,6 +10,13 @@
   font-size: 50px;
   text-align: center;
   line-height: 200px;
+  animation-name: animate;
+  animation-name: rotate; 
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  
+
 }
 
 #pseudo, #jsEvent{
@@ -24,4 +31,3 @@ h3{
   border-bottom: 1px solid #000;
   text-align: center;
 }
-

@@ -1,16 +1,78 @@
 #rotate {
-	background-color: orange;
+    background-color: orange;
     transform: rotate(120deg);
 
 
 }
 
 #skew {
-	transform: skew(20deg,10deg);
-	background-color: purple;
+    transform: skew(20deg,10deg);
+    background-color: purple;
 }
 
 #all {
-	background-color: red;
-	transform: skew(10deg, 12deg);
+    background-color: red;
+    transform: skew(10deg, 12deg);
+}
+
+#animate{
+    background-color: green;
+}
+
+#matrix {
+	transform: matrix(1, 2, 3, 3, 2, 1);
+}
+
+
+@keyframes animate {
+    0%{
+        transform: translateX(0) 
+        rotate(100deg);
+    }
+    25%{
+        transform: translateX(25px) 
+        rotate(110deg);
+    }
+    
+    50%{    
+        transform: translateX(50px) 
+        rotate(120deg);
+    }
+    75%{
+        transform: translateX(75px) 
+        rotate(130deg);
+        }
+    100%{
+    	transform: rotate(360deg rotate(140deg));
+    }
+
+    @keyframes rotate {
+    15%{
+		transform: rotate(45deg);	
+    	}
+
+    30%{
+		transform: rotate(90deg);	
+    	}
+
+    45%{
+		transform: rotate(135deg);	
+    	}
+	60%{
+		transform: rotate(180deg);	
+		}
+	75%{
+		transform: rotate(225deg);	
+		}
+		90%{
+		transform: rotate(270deg);	
+		}
+
+    }
+}
+
+#input1:focus{
+	width: 100px;
+	height: 200px;
+	background-color: purple;
 }
