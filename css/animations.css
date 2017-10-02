@@ -29,19 +29,40 @@
         transform: translateX(0) 
         rotate(100deg);
     }
+    15%{
+		transform: rotate(45deg);	
+    	}
     25%{
         transform: translateX(25px) 
         rotate(110deg);
     }
+
+    30%{
+		transform: rotate(90deg);	
+    	}
+
+    45%{
+		transform: rotate(135deg);	
+    	}
     
     50%{    
         transform: translateX(50px) 
         rotate(120deg);
     }
+
+    60%{
+		transform: rotate(180deg);	
+		}
+
     75%{
         transform: translateX(75px) 
         rotate(130deg);
         }
+
+    90%{
+		transform: rotate(270deg);	
+		}
+
     100%{
     	transform: rotate(360deg rotate(140deg));
     }
